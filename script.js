@@ -43,8 +43,8 @@ fechas.forEach(fecha => {
     div.className = "entry";
     div.innerHTML = `
         <strong>${fechaStr}</strong><br>
-        <label><input type="checkbox" id="${fechaStr}_A"> Pagó Persona A</label>
-        <label><input type="checkbox" id="${fechaStr}_B"> Pagó Persona B</label>
+        <label><input type="checkbox" id="${fechaStr}_A"> Pagó DianaM </label>
+        <label><input type="checkbox" id="${fechaStr}_B"> Pagó Angela</label>
         <label>Comentario:<br><textarea id="${fechaStr}_comentario"></textarea></label>
     `;
     lista.appendChild(div);
