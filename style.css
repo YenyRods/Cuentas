@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: yellowgreen;
+}
+h1 {
+    text-align: center;
+}
+#resumen {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.entry {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.entry label {
+    display: block;
+    margin: 5px 0;
+}
+textarea {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
