@@ -1,6 +1,6 @@
 const lista = document.getElementById("lista");
-const totalA = document.getElementById("DianaM");
-const totalB = document.getElementById("Angela");
+const totalA = document.getElementById("totalA");
+const totalB = document.getElementById("totalB");
 
 const fechas = [];
 let currentDate = new Date("2025-05-26");
