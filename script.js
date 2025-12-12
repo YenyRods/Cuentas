@@ -4,7 +4,7 @@ const totalB = document.getElementById("totalB");
 
 const fechas = [];
 let currentDate = new Date("2025-12-08");
-for (let i = 0; i < 28; i++) {
+for (let i = 0; i < 30; i++) {
     fechas.push(new Date(currentDate));
     currentDate.setDate(currentDate.getDate() + 7);
 }
